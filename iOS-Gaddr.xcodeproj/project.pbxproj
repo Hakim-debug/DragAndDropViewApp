@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FD592F0F253DF8C90005B867 /* DragAndDropView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragAndDropView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD592F0F253DF8C90005B867 /* iOS-Gaddr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Gaddr.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD592F12253DF8C90005B867 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD592F14253DF8C90005B867 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FD592F16253DF8C90005B867 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		FD592F10253DF8C90005B867 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FD592F0F253DF8C90005B867 /* DragAndDropView.app */,
+				FD592F0F253DF8C90005B867 /* iOS-Gaddr.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FD592F0E253DF8C90005B867 /* DragAndDropView */ = {
+		FD592F0E253DF8C90005B867 /* iOS-Gaddr */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD592F23253DF8CA0005B867 /* Build configuration list for PBXNativeTarget "DragAndDropView" */;
+			buildConfigurationList = FD592F23253DF8CA0005B867 /* Build configuration list for PBXNativeTarget "iOS-Gaddr" */;
 			buildPhases = (
 				FD592F0B253DF8C90005B867 /* Sources */,
 				FD592F0C253DF8C90005B867 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = DragAndDropView;
+			name = "iOS-Gaddr";
 			productName = DragAndDropView;
-			productReference = FD592F0F253DF8C90005B867 /* DragAndDropView.app */;
+			productReference = FD592F0F253DF8C90005B867 /* iOS-Gaddr.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FD592F0A253DF8C80005B867 /* Build configuration list for PBXProject "DragAndDropView" */;
+			buildConfigurationList = FD592F0A253DF8C80005B867 /* Build configuration list for PBXProject "iOS-Gaddr" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FD592F0E253DF8C90005B867 /* DragAndDropView */,
+				FD592F0E253DF8C90005B867 /* iOS-Gaddr */,
 			);
 		};
 /* End PBXProject section */
@@ -293,7 +293,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = STI.DragAndDropView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,14 +310,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = STI.DragAndDropView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FD592F0A253DF8C80005B867 /* Build configuration list for PBXProject "DragAndDropView" */ = {
+		FD592F0A253DF8C80005B867 /* Build configuration list for PBXProject "iOS-Gaddr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD592F21253DF8CA0005B867 /* Debug */,
@@ -326,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD592F23253DF8CA0005B867 /* Build configuration list for PBXNativeTarget "DragAndDropView" */ = {
+		FD592F23253DF8CA0005B867 /* Build configuration list for PBXNativeTarget "iOS-Gaddr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD592F24253DF8CA0005B867 /* Debug */,
